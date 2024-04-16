@@ -3,6 +3,7 @@
     <head>
         <title>My Portfolio</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,10 +16,13 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     </head>
 
-    <body>
-        <header>
+    <body class="body">
+        <header class="header">
             <div class="navbar">
-                <p><span class="code">&lt;</span>sophielaksimi<span class="code">/&gt;</span></p>
+                <p class="navbar-p"><span class="code">&lt;</span>sophielaksimi<span class="code">/&gt;</span></p>
+                <div class="switches-container">
+                    <button class="darkMode">Dark Mode</button>
+                </div>
                 <nav>
                     <ul class="nav-list">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -30,7 +34,7 @@
             </div>
         </header>
 
-        <main>
+        <main class="main">
             <section class="hero">
                 <div class="hero-text">
                     <h1 class="hero-tagline">I design and develop experiences that make people's lives simple.</h1>
@@ -50,7 +54,9 @@
                         </div>
                         <div class="project-desc project1"> 
                             <h3>PROJECT ONE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dignissimos earum rerum, dolore eius maxime illum magnam laudantium perspiciatis eligendi inventore, aperiam a. Incidunt illum eligendi quos quaerat neque repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet. Quis dignissimos earum rerum, dolore eius maxime illum magnam laudantium perspiciatis eligendi inventore, aperiam a.
+                                <br>Languages used: HTML5 & CSS3
+                            </p>
                             <button class="btn-bottom"><a href="projects.html">Read More</a></button>
                         </div>
                     </div>
@@ -65,7 +71,9 @@
                         </div>
                         <div class="project-desc align-left project2">
                             <h3>PROJECT TWO</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsum modi, dolorum hic illum eos id! Voluptatum saepe quo incidunt, sint illo labore asperiores voluptates amet eius eos nam vel?</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum saepe quo incidunt, sint illo labore asperiores voluptates amet eius eos nam vel?
+                                <br>Languages used: HTML5 & CSS3
+                            </p>
                             <button class="btn-bottom btn-middle"><a href="projects.html">Read More</a></button>
                         </div>                        
                     </div>
@@ -80,7 +88,9 @@
                         </div>
                         <div class="project-desc project3">
                             <h3>PROJECT THREE</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At deleniti voluptatem nihil consequuntur id tempore dignissimos veritatis quod atque natus porro sed magnam totam explicabo, ipsum repellendus quam ipsa. Eum!</p>
+                            <p>Lorem ipsum dolor sit amet. At deleniti voluptatem nihil consequuntur id tempore dignissimos veritatis quod atque natus porro sed magnam totam explicabo
+                                <br>Languages used: HTML5 & CSS3
+                            </p>
                             <button class="btn-bottom"><!--<a href="projects.html">-->Read More<!--</a>--></button>
                         </div>
                     </div>
@@ -98,7 +108,7 @@
             </section>
         </main>
         
-        <footer>
+        <footer class="footer">
             <div class="footer-container">
                 <p>&copy;Sophie Laksimi - 2024</p>
                 <div>
